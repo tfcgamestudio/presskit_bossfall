@@ -223,3 +223,26 @@ footer a {
         font-size: 30px;
     }
 }
+
+/* Layout for the container holding the links */
+.press-links {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 12px; 
+}
+
+/* Styling for each individual link */
+.press-link {
+    padding: 8px 16px;
+    border: 2px solid var(--accent);
+    border-radius: 6px;
+    font-weight: 600;
+    transition: 0.2s ease-in-out;
+}
+
+/* What happens when you hover over the link */
+.press-link:hover {
+    background: var(--accent);
+    color: #fff;
+    text-decoration: none;
+}
